@@ -1,0 +1,63 @@
+
+.formulario {
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background: #fff;
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .campo {
+    margin-bottom: 1rem;
+  }
+  
+  .input, 
+  textarea {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .inputError {
+    border-color: #ff0000;
+  }
+  
+  .mensajeError {
+    color: #ff0000;
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+  }
+  
+  .mensajeExito {
+    color: #00cc44;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .boton, 
+  button {
+    background: #ff8000;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .boton:disabled, 
+  button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .boton:hover:not(:disabled), 
+  button:hover:not(:disabled) {
+    background: #0056b3;
+  } 
+
+
+  

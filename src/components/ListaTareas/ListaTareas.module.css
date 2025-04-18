@@ -1,0 +1,13 @@
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .mensajeVacio {
+    text-align: center;
+    color: #888;
+    font-size: 1.1rem;
+  }
+  
