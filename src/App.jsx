@@ -27,7 +27,6 @@ function App() {
     setTareas(prev => [...prev, nuevaTarea]);
   };
 
-  // Eliminar 
   const eliminarTarea = (id) => {
     setTareas(prev => prev.filter(tarea => tarea.id !== id)); 
     if (tareaEditando && tareaEditando.id === id) setTareaEditando(null); 
@@ -40,12 +39,10 @@ function App() {
     ));
   }; 
 
-  // Editar
   const editarTarea = (tarea) => {
     setTareaEditando(tarea);
   }; 
 
-  // Guardar 
   const guardarEdicion = (id, titulo, descripcion) => {
     setTareas(prev => prev.map(tarea =>
       tarea.id === id ? { ...tarea, titulo, descripcion } : tarea
